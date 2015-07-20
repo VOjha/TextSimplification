@@ -1,4 +1,4 @@
-Documentation regarding what these texts represent
+# Documentation
 
 Four texts of each type -- lexical, semantic and syntactic.
 
