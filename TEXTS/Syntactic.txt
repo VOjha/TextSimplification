@@ -1,0 +1,28 @@
+550-650 characters long
+Contain three garden path sentences
+B is the ordinary version of the text, A is the unexpected version
+
+1A:
+The sun had set in the sky by the time the children finished up their chores. True to her word, the new arrival was finally prepared to share her story. The children all took their seats around the fire, and listened. One boy told the story cried. It was a long tale, told in starts and bursts, with names and places that were unfamiliar to all the children, but not to me. Jill told me a white lie will come back to haunt me. I winced as the girl's story reached its conclusion, finally explaining why she had brought the story to us: the tycoon sold the offshore oil tracts wanted to kill JR. (594)
+
+1B:
+The sun had set in the sky by the time the children finished up their chores. True to her word, the new arrival was finally prepared to share her story. The children all took their seats around the fire, and listened. One boy who was told the story cried. It was a long tale, told in starts and bursts, with names and places that were unfamiliar to all the children, but not to me. Jill had told me a white lie will come back to haunt me. I winced as the girl's story reached its conclusion, finally explaining why she had brought the story to us: the tycoon who was sold the offshore oil tracts wanted to kill JR. (614)
+
+
+2A:
+A burst of wind, and the train pulled up next to the platform. Anxiously tapping his foot, Tom willed the would-be passengers to hurry up from behind his newspaper. The headlines flickered past as he pretended to read: "British left waffles on Falklands," the front page proclaimed. He tried to swallow his panic and project complete and utter normalcy. He knew that the boat was waiting, and that the old man the boat. Making it to the boat undetected was the only thing he had to accomplish. In a blur of headlines, he got on the next train, "Stolen painting found by tree" obscuring his face. (595)
+
+2B:
+A burst of wind, and the train pulled up next to the platform. Anxiously tapping his foot, Tom willed the would-be passengers to hurry up from behind his newspaper. The headlines flickered past as he pretended to read: "British Left waffles on Falklands," the front page proclaimed. He tried to swallow his panic and project complete and utter normalcy. He knew that the boat was waiting, and that the old people man the boat. Making it to the boat undetected was the only thing he had to accomplish. In a blur of headlines, he got on the next train, "Stolen painting found next to tree" obscuring his face. (607)
+
+3A:
+I can remember every moment we spent together. I remember watching Mary give the child my dog bit a bandaid, and falling in love with her right then and there. Unfortunately, I don't think it was as instantaneous for her. See, the dog I had really loved bones. He wasn't going to be happy  until I gave him one, and Mary did not approve of his barking. That's not my favorite memory of her, though; that would be when we moved in together. We painted the wall with cracks. Blue and yellow, her favorite combination. (515)
+
+3B:
+I can remember every moment we spent together. I remember watching Mary give the child that my dog bit a bandaid, and falling in love with her right then and there. Unfortunately, I don't think it was as instantaneous for her. See, the dog I had as a pet really loved bones. He wasn't going to be happy  until I gave him one, and Mary did not approve of his barking. That's not my favorite memory of her, though; that would be when we moved in together. We painted the wall that had cracks. Blue and yellow, her favorite combination. (533)
+
+4A:
+The principal was clearly out of sorts as he walked down the hallway, that much they could see through the cracked open door. "Have the students who failed the exam take the supplementary," he snapped, glowering. The children in the classroom shrank away from the door. Behind another open door, an oblivious voice droned on: "The cotton clothing is made of grows in Mississippi... " The principal's face contorted in derision. He caught sight of the children through the door, and scowled. "The prime number few," he muttered inscrutably, and marched away. (557)
+
+4B:
+The principal was clearly out of sorts as he walked down the hallway, that much they could see through the cracked open door. "Please have the students who failed the exam take the supplementary," he snapped, glowering. The children in the classroom shrank away from the door. Behind another open door, an oblivious voice droned on: "The cotton that clothing is made of grows in Mississippi... " The principal's face contorted in derision. He caught sight of the children through the door, and scowled. "The prime people number few," he muttered inscrutably, and marched away. (576)
