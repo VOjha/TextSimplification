@@ -1,0 +1,200 @@
+%
+% File naaclhlt2015.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{naaclhlt2015}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{float}
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
+
+\title{Eye-tracking without the eye-tracker\Thanks{Acknowledgements and thanks go here.}}
+
+\author{Julie Medero, Adam Shaw, Vidushi Ojha\\
+	    Harvey Mudd College\\
+	    340 E. Foothill Boulevard\\
+	    Claremont, CA 91711, USA\\
+	    {\tt julie@cs.hmc.edu, ashaw@g.hmc.edu, vojha@g.hmc.edu}}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+  This paper details the process of creating an iPad app for the purpose of measuring eye movements during reading. The app was meant to simulate an eye-tracking experiment as closely as possible without the corresponding equipment. The aim was to replicate established results in the field of text simplification (using eye-tracking equipment) using the app. To this end, a study was designed around minimal sentence pairs, to detect regressions, fixations and saccades. While we found that the app is capable of detecting small differences in how people process sentences, and there are some statistically significant different phrases amongst the pairs tested, most pairs showed no difference.
+\end{abstract}
+
+\section{Introduction}
+
+This section should cover: background about sources of text difficulty, an overview of the key literature (esp. the papers referenced herein) and an overview of what this paper is about.
+
+\section{Background}
+
+Cover lit reviews of automatic text simplification, eye movements while reading, and UI aspects (esp. if also talking about study 1). Depending on how long this paper gets, this might be too much, and enough lit review can be covered in the section above.
+
+%% If the paper is produced by a printer, make sure that the quality
+%% of the output is dark enough to photocopy well.  It may be necessary
+%% to have your laser printer adjusted for this purpose.  Papers that are too
+%% faint to reproduce well may not be included.
+
+%% {\bf Do not print page numbers on the manuscript.}  Write them lightly
+%% on the back of each page in the upper left corner along with the
+%% (first) author's name.
+
+\subsection{Automatic Text Simplification}
+
+Stuff about why done, what has been done so far (see Prof M's thesis).
+
+\subsection{Eye Movements while Reading}
+
+What kind of results have already been seen? Regressions, fixations, saccades. Rayner papers.
+
+\subsection{UI Aspects}
+
+Review what kind of UI choices went into the app, study 1, what existing literature informed some of the choices (e.g. monospaced fonts).
+
+\section{App}
+\label{sec:app}
+
+In order to carry out the study, we designed an app that would allow us to test many different passages and get an idea of whether we could replicate eye-tracking results.
+
+\subsection{Implementation Details}
+
+The app developed over the course of this project was built for the iOS mobile operating system. The intended platform was an iPad, due to its screen size, frequency of use for reading, and inbuilt gyroscope and accelerometer. As such, the original implementation of the app was written in the Swift programming language, using the Xcode 6 IDE. During this project, both programming language and IDE were updated in beta to Swift 2.0 and Xcode 7 respectively.
+
+\subsection{Functionality}
+
+In terms of features, this application was designed specifically with this study in mind, and so its functionality is limited to precisely that which was needed for the experiment.
+
+This app was designed with minimalism in mind. For the purposes of this experiment, it was necessary to keep track of individual data sets while preserving the participant's anonymity. To this end, the first function the app supports is the ability to assign an ID number to each set of data readings. This ID number is filled into a text field by the researcher leading the study.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{splashscreen.png}
+\caption{Home screen.}
+\end{figure}
+
+From the home screen, the participant must click ``start" in order to begin the experiment. When this button is pressed, the gyroscope in the iPad calibrates itself, meaning whatever position it is held in at that moment is treated as a zero tilt. After this, the user is presented with the reading screen, which consists of a reset button and a horizontal reading frame (a rectangular box in the center of the screen). Upon tilting, text appears inside the reading frame and scrolls through. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{readingscreen.png}
+\caption{Reading screen.}
+\end{figure}
+
+The gyroscope within the iPad measures the degree of the tilt, which is used to determine how fast the text scrolls. The text scrolls from right to left, and the user can make the text scroll forward by tilting the iPad to their right, as well as backward by tilting the iPad to their left. This functionality allows the user to read at their own pace, as well as affords the user the flexibility to reread passages if they so choose.
+
+Many of the settings behind the app were determined through a user study. In the study, participants were given different options for settings for the following parameters:
+\begin{itemize}[noitemsep, nolistsep]
+\item Tilt sensitivity
+\item Reading frame size
+\item Font size
+\item Font choice
+\item Tilt direction
+\end{itemize}
+
+Thus, the above settings were uniform across participants for this text comparison study. Data is collected by the accelerometer built into the iPad, which reads the device's acceleration every 0.2 seconds, and associates this value with the time elapsed and the text visible on the screen at that time.
+
+\section{Experiment}
+\label{sec:exp}
+
+The app was specifically designed for this specific study, which was carried out over the course of three days on the campus of Harvey Mudd College.
+
+\subsection{Participants}
+
+The participants for this study were recruited from amongst summer researchers at Harvey Mudd via email signups. They were told that they would be expected to read a number of passages and summarize them for the researcher leading the study, and that they would be compensated \$5 for their time. Through this recruiting process, the study had 22 participants between the ages of 18 and 22, 10 of whom were female, and 12 male.
+
+\subsection{Logistics}
+
+Participants were allotted 45 minutes each for the study, although there was no expectation for the study to take over 20 minutes. Each participant began the experiment by reading an informed consent form which explained how the data would be collected, what steps were taken to ensure anonymity, and potential benefits from the study. After signing the form, each participant was given a quick overview of what they were expected to do: they were asked to use the iPad app to read 12 texts back to back, at their own pace, with an emphasis on reading for comprehension. They were given a chance to read a ``test passage," a passage of around 10 words meant to allow users to get used to the controls that had been preset for them. This was in order to avoid recording data that was in reality the user getting used to the given controls.
+
+After this test passage, the participant is asked to click the ``Next'' button which appears once a text is complete. For each of the subsequent 12 passages, the participant read the text in silence, and upon completion, summarizes the text briefly for the researcher out loud. We required each participant to summarize each text in order to ensure they were, in fact, reading the passage for comprehension, rather than speeding through the text. Each text the participants read has an ``A'' and a ``B'' version, and a participant reading the ``A'' version of a text does not read the ``B'', and vice versa. The differences between these two versions will be explained in Section 4.3.
+
+After reading all 12 passages, the participant was given \$5 as compensation, and asked to sign a form acknowledging receipt of this compensation. If requested, participants were also given a brief explanation of what the texts they read were meant to represent. This information was saved until after the experiment in order to avoid the participants knowing what to expect from the text, as we intended to capture as natural a reading process as possible.
+
+The data collected during the participant's reading consists of time values, acceleration values and text indices corresponding to the text on the screen at that time. This data is stored via email.
+
+\subsection{Text Pairs}
+
+The texts used in the experiment were constructed based on sentence pair comparison. The idea behind this technique is as follows: in an effort to identify which aspects of a text are ``easy'' or ``hard'' to read, sentence pairs are constructed, where one sentence serves as control (``B'') and the other as test (``A''). The two sentences differ from each other in small but significant ways. Asking multiple users to read version A, and asking multiple different users to read version B, allows us to compare whether, on average, the differences between A and B had a significant impact on the ``difficulty'' of that passage. Each of the 12 passages the participants read contained three such target sentences, giving us a total of 36 sentence pairs to compare.
+
+There are three kinds of differences that were being tested using the sentence pairs. With four texts for each kind of difference, and each text containing three target sentence, there are 12 sentence pairs per type of difference. These types are as follows.
+
+\textit{Lexical.} A lexical sentence pair consists of two sentences that are identical except for one word. These words must be synonyms of one another, where one of them (the B version) is expected to be more ``difficult'' than the other. An example is given below:
+\begin{itemize}[noitemsep, nolistsep]
+\item[A.] ``... believes that he escapes \textit{responsibility}... ''
+\item[B.] ``... believes that he escapes \textit{answerability}... ''
+\end{itemize}
+
+\textit{Semantic.} A semantic sentence pair also consists of two sentences that are identical except for one word. These words are equally correct from a grammatical point of view, but one of them (the B version) is unexpected in the context of the passage, while the other (the A version) must be highly predictable. For instance:
+\begin{itemize}[noitemsep, nolistsep]
+\item[A.] ``... mailed her a \textit{letter} from China... ''
+\item[B.] ``... mailed her a \textit{compass} from China... ''
+\end{itemize}
+
+\textit{Syntactic.} A syntactic sentence pair consists of a garden path sentence (the B version) and another sentence (the A version) which means precisely the same thing as the garden path sentence, but with a clearer syntactic structure. A garden path sentence is one where a reader begins to apply a certain syntactic structure, only to reach a point in the sentence where the structure no longer applies. The addition of some qualifiers explains the intended syntactic structure. Consider the following:
+\begin{itemize}[noitemsep, nolistsep]
+\item[A.] ``The horse \textit{which was} raced past the barn fell.''
+\item[B.] ``The horse raced past the barn \textit{fell}.''
+\end{itemize}
+
+\section{Data Analysis}
+
+x
+
+\section{Results}
+
+x
+
+\section{Summary and Future Directions}
+
+\subsection{Summary}
+
+x
+
+\subsection{Future Directions}
+
+x
+
+\section*{Acknowledgments}
+
+Do not number the acknowledgment section.
+
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Aho and Ullman}1972]{Aho:72}
+Alfred~V. Aho and Jeffrey~D. Ullman.
+\newblock 1972.
+\newblock {\em The Theory of Parsing, Translation and Compiling}, volume~1.
+\newblock Prentice-{Hall}, Englewood Cliffs, NJ.
+
+\bibitem[\protect\citename{{American Psychological Association}}1983]{APA:83}
+{American Psychological Association}.
+\newblock 1983.
+\newblock {\em Publications Manual}.
+\newblock American Psychological Association, Washington, DC.
+
+\bibitem[\protect\citename{{Association for Computing Machinery}}1983]{ACM:83}
+{Association for Computing Machinery}.
+\newblock 1983.
+\newblock {\em Computing Reviews}, 24(11):503--512.
+
+\bibitem[\protect\citename{Chandra \bgroup et al.\egroup }1981]{Chandra:81}
+Ashok~K. Chandra, Dexter~C. Kozen, and Larry~J. Stockmeyer.
+\newblock 1981.
+\newblock Alternation.
+\newblock {\em Journal of the Association for Computing Machinery},
+  28(1):114--133.
+
+\bibitem[\protect\citename{Gusfield}1997]{Gusfield:97}
+Dan Gusfield.
+\newblock 1997.
+\newblock {\em Algorithms on Strings, Trees and Sequences}.
+\newblock Cambridge University Press, Cambridge, UK.
+
+\end{thebibliography}
+
+\end{document}
