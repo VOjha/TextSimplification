@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA2130C61B4B1A1E00C492D8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2130C31B4B1A1E00C492D8 /* IntroViewController.swift */; };
+		EA2130C71B4B1A1E00C492D8 /* MetricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2130C41B4B1A1E00C492D8 /* MetricsViewController.swift */; };
+		EA2130C81B4B1A1E00C492D8 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2130C51B4B1A1E00C492D8 /* TestViewController.swift */; };
+		EA2130CE1B4B1A8800C492D8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2130CA1B4B1A8800C492D8 /* Extensions.swift */; };
+		EA2130CF1B4B1A8800C492D8 /* ScrollingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2130CB1B4B1A8800C492D8 /* ScrollingLabel.swift */; };
+		EA2130D01B4B1A8800C492D8 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2130CC1B4B1A8800C492D8 /* StopWatch.swift */; };
+		EA2130D11B4B1A8800C492D8 /* Suple.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2130CD1B4B1A8800C492D8 /* Suple.swift */; };
+		EA8B3F161B4B1AF400137A49 /* Acclimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA8B3F121B4B1AF400137A49 /* Acclimation.plist */; };
+		EA8B3F171B4B1AF400137A49 /* Lexical.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA8B3F131B4B1AF400137A49 /* Lexical.plist */; };
+		EA8B3F181B4B1AF400137A49 /* Semantics.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA8B3F141B4B1AF400137A49 /* Semantics.plist */; };
+		EA8B3F191B4B1AF400137A49 /* Syntactic.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA8B3F151B4B1AF400137A49 /* Syntactic.plist */; };
+		EAF78C3D1B448BD60051A0CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF78C3C1B448BD60051A0CE /* AppDelegate.swift */; };
+		EAF78C421B448BD70051A0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF78C401B448BD70051A0CE /* Main.storyboard */; };
+		EAF78C441B448BD70051A0CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF78C431B448BD70051A0CE /* Images.xcassets */; };
+		EAF78C471B448BD70051A0CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAF78C451B448BD70051A0CE /* LaunchScreen.xib */; };
+		EAF78C531B448BD70051A0CE /* HMC_Word_ScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF78C521B448BD70051A0CE /* HMC_Word_ScrollTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF78C4D1B448BD70051A0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF78C2F1B448BD60051A0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF78C361B448BD60051A0CE;
+			remoteInfo = "HMC Word Scroll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA2130C31B4B1A1E00C492D8 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		EA2130C41B4B1A1E00C492D8 /* MetricsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsViewController.swift; sourceTree = "<group>"; };
+		EA2130C51B4B1A1E00C492D8 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		EA2130CA1B4B1A8800C492D8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EA2130CB1B4B1A8800C492D8 /* ScrollingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingLabel.swift; sourceTree = "<group>"; };
+		EA2130CC1B4B1A8800C492D8 /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		EA2130CD1B4B1A8800C492D8 /* Suple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suple.swift; sourceTree = "<group>"; };
+		EA8B3F121B4B1AF400137A49 /* Acclimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Acclimation.plist; sourceTree = "<group>"; };
+		EA8B3F131B4B1AF400137A49 /* Lexical.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lexical.plist; sourceTree = "<group>"; };
+		EA8B3F141B4B1AF400137A49 /* Semantics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Semantics.plist; sourceTree = "<group>"; };
+		EA8B3F151B4B1AF400137A49 /* Syntactic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Syntactic.plist; sourceTree = "<group>"; };
+		EAF78C371B448BD60051A0CE /* HMC Word Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HMC Word Scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF78C3B1B448BD60051A0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF78C3C1B448BD60051A0CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAF78C411B448BD70051A0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAF78C431B448BD70051A0CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAF78C461B448BD70051A0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAF78C4C1B448BD70051A0CE /* HMC Word ScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HMC Word ScrollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF78C511B448BD70051A0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF78C521B448BD70051A0CE /* HMC_Word_ScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMC_Word_ScrollTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF78C341B448BD60051A0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF78C491B448BD70051A0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2130C21B4B1A1E00C492D8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA2130C31B4B1A1E00C492D8 /* IntroViewController.swift */,
+				EA2130C41B4B1A1E00C492D8 /* MetricsViewController.swift */,
+				EA2130C51B4B1A1E00C492D8 /* TestViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EA2130C91B4B1A8800C492D8 /* Scrolling Label */ = {
+			isa = PBXGroup;
+			children = (
+				EA2130CA1B4B1A8800C492D8 /* Extensions.swift */,
+				EA2130CB1B4B1A8800C492D8 /* ScrollingLabel.swift */,
+				EA2130CC1B4B1A8800C492D8 /* StopWatch.swift */,
+				EA2130CD1B4B1A8800C492D8 /* Suple.swift */,
+			);
+			path = "Scrolling Label";
+			sourceTree = "<group>";
+		};
+		EA8B3F111B4B1AF400137A49 /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				EA8B3F121B4B1AF400137A49 /* Acclimation.plist */,
+				EA8B3F131B4B1AF400137A49 /* Lexical.plist */,
+				EA8B3F141B4B1AF400137A49 /* Semantics.plist */,
+				EA8B3F151B4B1AF400137A49 /* Syntactic.plist */,
+			);
+			path = Texts;
+			sourceTree = "<group>";
+		};
+		EAF78C2E1B448BD60051A0CE = {
+			isa = PBXGroup;
+			children = (
+				EA8B3F111B4B1AF400137A49 /* Texts */,
+				EA2130C91B4B1A8800C492D8 /* Scrolling Label */,
+				EA2130C21B4B1A1E00C492D8 /* View Controllers */,
+				EAF78C391B448BD60051A0CE /* HMC Word Scroll */,
+				EAF78C4F1B448BD70051A0CE /* HMC Word ScrollTests */,
+				EAF78C381B448BD60051A0CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF78C381B448BD60051A0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF78C371B448BD60051A0CE /* HMC Word Scroll.app */,
+				EAF78C4C1B448BD70051A0CE /* HMC Word ScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF78C391B448BD60051A0CE /* HMC Word Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				EAF78C3C1B448BD60051A0CE /* AppDelegate.swift */,
+				EAF78C401B448BD70051A0CE /* Main.storyboard */,
+				EAF78C431B448BD70051A0CE /* Images.xcassets */,
+				EAF78C451B448BD70051A0CE /* LaunchScreen.xib */,
+				EAF78C3A1B448BD60051A0CE /* Supporting Files */,
+			);
+			path = "HMC Word Scroll";
+			sourceTree = "<group>";
+		};
+		EAF78C3A1B448BD60051A0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF78C3B1B448BD60051A0CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAF78C4F1B448BD70051A0CE /* HMC Word ScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF78C521B448BD70051A0CE /* HMC_Word_ScrollTests.swift */,
+				EAF78C501B448BD70051A0CE /* Supporting Files */,
+			);
+			path = "HMC Word ScrollTests";
+			sourceTree = "<group>";
+		};
+		EAF78C501B448BD70051A0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF78C511B448BD70051A0CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF78C361B448BD60051A0CE /* HMC Word Scroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF78C561B448BD70051A0CE /* Build configuration list for PBXNativeTarget "HMC Word Scroll" */;
+			buildPhases = (
+				EAF78C331B448BD60051A0CE /* Sources */,
+				EAF78C341B448BD60051A0CE /* Frameworks */,
+				EAF78C351B448BD60051A0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HMC Word Scroll";
+			productName = "HMC Word Scroll";
+			productReference = EAF78C371B448BD60051A0CE /* HMC Word Scroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF78C4B1B448BD70051A0CE /* HMC Word ScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF78C591B448BD70051A0CE /* Build configuration list for PBXNativeTarget "HMC Word ScrollTests" */;
+			buildPhases = (
+				EAF78C481B448BD70051A0CE /* Sources */,
+				EAF78C491B448BD70051A0CE /* Frameworks */,
+				EAF78C4A1B448BD70051A0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF78C4E1B448BD70051A0CE /* PBXTargetDependency */,
+			);
+			name = "HMC Word ScrollTests";
+			productName = "HMC Word ScrollTests";
+			productReference = EAF78C4C1B448BD70051A0CE /* HMC Word ScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF78C2F1B448BD60051A0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "HMC LAPDOG";
+				TargetAttributes = {
+					EAF78C361B448BD60051A0CE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EAF78C4B1B448BD70051A0CE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EAF78C361B448BD60051A0CE;
+					};
+				};
+			};
+			buildConfigurationList = EAF78C321B448BD60051A0CE /* Build configuration list for PBXProject "HMC Word Scroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF78C2E1B448BD60051A0CE;
+			productRefGroup = EAF78C381B448BD60051A0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF78C361B448BD60051A0CE /* HMC Word Scroll */,
+				EAF78C4B1B448BD70051A0CE /* HMC Word ScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF78C351B448BD60051A0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF78C421B448BD70051A0CE /* Main.storyboard in Resources */,
+				EA8B3F171B4B1AF400137A49 /* Lexical.plist in Resources */,
+				EA8B3F191B4B1AF400137A49 /* Syntactic.plist in Resources */,
+				EA8B3F181B4B1AF400137A49 /* Semantics.plist in Resources */,
+				EAF78C471B448BD70051A0CE /* LaunchScreen.xib in Resources */,
+				EAF78C441B448BD70051A0CE /* Images.xcassets in Resources */,
+				EA8B3F161B4B1AF400137A49 /* Acclimation.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF78C4A1B448BD70051A0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF78C331B448BD60051A0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2130CF1B4B1A8800C492D8 /* ScrollingLabel.swift in Sources */,
+				EA2130D01B4B1A8800C492D8 /* StopWatch.swift in Sources */,
+				EA2130C71B4B1A1E00C492D8 /* MetricsViewController.swift in Sources */,
+				EA2130CE1B4B1A8800C492D8 /* Extensions.swift in Sources */,
+				EA2130C61B4B1A1E00C492D8 /* IntroViewController.swift in Sources */,
+				EA2130C81B4B1A1E00C492D8 /* TestViewController.swift in Sources */,
+				EA2130D11B4B1A8800C492D8 /* Suple.swift in Sources */,
+				EAF78C3D1B448BD60051A0CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF78C481B448BD70051A0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF78C531B448BD70051A0CE /* HMC_Word_ScrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF78C4E1B448BD70051A0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF78C361B448BD60051A0CE /* HMC Word Scroll */;
+			targetProxy = EAF78C4D1B448BD70051A0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAF78C401B448BD70051A0CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF78C411B448BD70051A0CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAF78C451B448BD70051A0CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF78C461B448BD70051A0CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAF78C541B448BD70051A0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EAF78C551B448BD70051A0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF78C571B448BD70051A0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HMC Word Scroll/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MessingWithSwift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAF78C581B448BD70051A0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HMC Word Scroll/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MessingWithSwift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAF78C5A1B448BD70051A0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HMC Word ScrollTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MessingWithSwift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMC Word Scroll.app/HMC Word Scroll";
+			};
+			name = Debug;
+		};
+		EAF78C5B1B448BD70051A0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HMC Word ScrollTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MessingWithSwift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMC Word Scroll.app/HMC Word Scroll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF78C321B448BD60051A0CE /* Build configuration list for PBXProject "HMC Word Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF78C541B448BD70051A0CE /* Debug */,
+				EAF78C551B448BD70051A0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF78C561B448BD70051A0CE /* Build configuration list for PBXNativeTarget "HMC Word Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF78C571B448BD70051A0CE /* Debug */,
+				EAF78C581B448BD70051A0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF78C591B448BD70051A0CE /* Build configuration list for PBXNativeTarget "HMC Word ScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF78C5A1B448BD70051A0CE /* Debug */,
+				EAF78C5B1B448BD70051A0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF78C2F1B448BD60051A0CE /* Project object */;
+}
