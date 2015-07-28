@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.27)  28 JUL 2015 10:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.27)  28 JUL 2015 13:38
 entering extended mode
 **ATS*Final*Report.tex
 ("S:\College\2015 SU\ATS\TextSimplification\REPORT\ATS Final Report.tex"
@@ -90,7 +90,57 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box28
 )
-("S:\College\2015 SU\ATS\TextSimplification\REPORT\ATS Final Report.aux")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen106
+\extrarowheight=\dimen107
+\NC@list=\toks19
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
+(C:\Users\vidushi127\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen108
+\lightrulewidth=\dimen109
+\cmidrulewidth=\dimen110
+\belowrulesep=\dimen111
+\belowbottomsep=\dimen112
+\aboverulesep=\dimen113
+\abovetopsep=\dimen114
+\cmidrulesep=\dimen115
+\cmidrulekern=\dimen116
+\defaultaddspace=\dimen117
+\@cmidla=\count90
+\@cmidlb=\count91
+\@aboverulesep=\dimen118
+\@belowrulesep=\dimen119
+\@thisruleclass=\count92
+\@lastruleclass=\count93
+\@thisrulewidth=\dimen120
+) (C:\Users\vidushi127\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:\Users\vidushi127\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks20
+\minrowclearance=\skip47
+)
+\rownum=\count94
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+) ("S:\College\2015 SU\ATS\TextSimplification\REPORT\ATS Final Report.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
@@ -110,71 +160,61 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (C:\Users\vidushi127\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count90
-\scratchdimen=\dimen106
+\scratchcounter=\count95
+\scratchdimen=\dimen121
 \scratchbox=\box29
-\nofMPsegments=\count91
-\nofMParguments=\count92
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count93
-\MPscratchDim=\dimen107
-\MPnumerator=\count94
-\makeMPintoPDFobject=\count95
-\everyMPtoPDFconversion=\toks20
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen122
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks22
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 38.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 38.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 38.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 38.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 38.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 38.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 38.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
+
+LaTeX Warning: No \author given.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
- [1{C:/Users/vidushi127/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/vidushi127/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
 
 ]
-Underfull \vbox (badness 1466) has occurred while \output is active []
-
-
-<splashscreen.png, id=11, 647.41875pt x 460.72125pt>
+<splashscreen.png, id=8, 647.41875pt x 460.72125pt>
 File: splashscreen.png Graphic file (type png)
  <use splashscreen.png>
 Package pdftex.def Info: splashscreen.png used on input line 81.
 (pdftex.def)             Requested size: 187.89912pt x 133.71118pt.
 
-<readingscreen.png, id=13, 650.43pt x 457.71pt>
+Underfull \vbox (badness 2894) has occurred while \output is active []
+
+
+<readingscreen.png, id=10, 650.43pt x 457.71pt>
 File: readingscreen.png Graphic file (type png)
  <use readingscreen.png>
 Package pdftex.def Info: readingscreen.png used on input line 89.
 (pdftex.def)             Requested size: 187.89912pt x 132.22266pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <S:/College/2015 SU/ATS/TextSimplification/REPORT/splashscreen.png>]
+[2 <S:/College/2015 SU/ATS/TextSimplification/REPORT/splashscreen.png> <S:/Coll
+ege/2015 SU/ATS/TextSimplification/REPORT/readingscreen.png>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 97.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
@@ -182,34 +222,51 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
- [3 <S:/College/2015 SU/ATS/TextSimplification/REPORT/readingscreen.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 165.
- [4] [5
+(Font)              <10.95> on input line 157.
+ [3]
+Underfull \hbox (badness 1009) in paragraph at lines 170--171
+\OT1/ptm/m/n/10.95 showed sig-nif-i-cant dif-fer-ences in read-ing speed,
+ []
 
-]
-("S:\College\2015 SU\ATS\TextSimplification\REPORT\ATS Final Report.aux") ) 
+
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 175.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+
+Overfull \hbox (53.12228pt too wide) in paragraph at lines 175--186
+ [] 
+ []
+
+[4] ("S:\College\2015 SU\ATS\TextSimplification\REPORT\ATS Final Report.aux") )
+ 
 Here is how much of TeX's memory you used:
- 1660 strings out of 493921
- 23910 string characters out of 3144861
- 80698 words of memory out of 3000000
- 4944 multiletter control sequences out of 15000+200000
- 25679 words of font info for 62 fonts, out of 3000000 for 9000
+ 2228 strings out of 493921
+ 30628 string characters out of 3144861
+ 95558 words of memory out of 3000000
+ 5504 multiletter control sequences out of 15000+200000
+ 23463 words of font info for 51 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,9n,19p,863b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/
-Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/
-utmri8a.pfb>
-Output written on "ATS Final Report.pdf" (5 pages, 162991 bytes).
+ 41i,11n,35p,925b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on "ATS Final Report.pdf" (4 pages, 193674 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
