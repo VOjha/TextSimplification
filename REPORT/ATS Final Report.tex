@@ -20,19 +20,19 @@
 \usepackage{array}
 \usepackage{booktabs}
 \usepackage[table]{xcolor} % http://ctan.org/pkg/xcolor
-% \setlength\titlebox{6.5cm}    % Expanding the titlebox
+ \setlength\titlebox{6.5cm}    % Expanding the titlebox
 
 \title{Eye-tracking without the eye-tracker
 	% \Thanks{Acknowledgements and thanks go here.}
 	}
 
-%\author{Vidushi Ojha, Adam Shaw, Julie Medero\\
-%	Harvey Mudd College\\
-%	340 E. Foothill Boulevard\\
-%	Claremont, CA 91711, USA\\
-%	{\tt vojha@g.hmc.edu, ashaw@g.hmc.edu, julie@cs.hmc.edu}}
-%
-%\date{}
+\author{Authors 1, 2, and 3\\
+	Institution\\
+	Address Line 1\\
+	Address Line 2\\
+	{\tt example@college.edu}}
+
+\date{}
 
 \begin{document}
 	\maketitle
@@ -146,6 +146,26 @@
 		\item[B.] ``The horse \textit{which was} raced past the barn fell.''
 	\end{itemize}
 	
+% For some reason, the table spanning two columns setting also puts the table on the next page
+% So I have moved the code here, and then it should be on top of the following page, where it should be
+	
+	\begin{table*}[t]
+		\begin{center}
+			\begin{tabular}{*7c}
+				\toprule
+				 & \multicolumn{2}{c}{\textbf{Lexical}} & \multicolumn{2}{c}{\textbf{Semantic}} & \multicolumn{2}{c}{\textbf{Syntactic}} \\
+				\midrule
+				\textbf{Text Number} & A & B & A & B & A & B \\
+				1 & $ 0.6306 $ & $ 0.3272 $ & $ 1.1324 $ & $ 0.6256 $ & $-$\textbf{0.2520} & \textbf{0.3485} \\
+				2 & $-$\textbf{0.2408} & \textbf{0.4300} & $ 0.4229 $ & $ -0.0737 $ & $ -0.4772 $ & $ -0.4914 $ \\
+				3 & \textbf{0.1956} & $-$\textbf{0.8105} & $ -0.1849 $ & $ 0.0549 $ & $ -0.5468 $ & $ -0.1049 $ \\
+				4 & $-$\textbf{1.9396} & $-$\textbf{0.8171} & $ 0.1283 $ & $ 0.8202 $ & $ 0.3725 $ & $ 0.0114 $ \\
+				\bottomrule
+			\end{tabular}
+		\end{center}
+		\caption{Z-Scores across passages.}
+	\end{table*}
+	
 	\section{Data Analysis}
 	
 	\subsection{Acquisition}
@@ -167,25 +187,7 @@
 	
 	\section{Results}
 	
-	By comparing average Z-Scores of partner texts, as described above, we see that only four text pairs showed significant differences in reading speed, with $p < 0.05$  (see Table 1). A higher Z-Score indicates a higher reading speed, thus three of the four significant pairs support the hypothesis (shown in green), that the theoretically harder passages would have a lower reading speed across their three target sentences.
-	
-	\begin{table}[!htbp]
-		\tiny
-		\begin{center}
-			\begin{tabular}{*7c}
-				\toprule
-				 & \multicolumn{2}{c}{\textbf{Lexical}} & \multicolumn{2}{c}{\textbf{Semantic}} & \multicolumn{2}{c}{\textbf{Syntactic}} \\
-				\midrule
-				\textbf{Text Number} & A & B & A & B & A & B \\
-				1 & $ 0.6306 $ & $ 0.3272 $ & $ 1.1324 $ & $ 0.6256 $ & \cellcolor{green!25} $ -0.2520 $ & \cellcolor{green!25} $ 0.3485 $ \\
-				2 & \cellcolor{green!25} $ -0.2408 $ & \cellcolor{green!25} $ 0.4300 $ & $ 0.4229 $ & $ -0.0737 $ & $ -0.4772 $ & $ -0.4914 $ \\
-				3 & \cellcolor{red!25} $ 0.1956 $ & \cellcolor{red!25} $ -0.8105 $ & $ -0.1849 $ & $ 0.0549 $ & $ -0.5468 $ & $ -0.1049 $ \\
-				4 & \cellcolor{green!25} $ -1.9396 $ & \cellcolor{green!25} $ -0.8171 $ & $ 0.1283 $ & $ 0.8202 $ & $ 0.3725 $ & $ 0.0114 $ \\
-				\bottomrule
-			\end{tabular}
-		\end{center}
-		\caption{Z-Scores across passages.}
-	\end{table}
+	By comparing average Z-Scores of partner texts, as described above, we see that only four text pairs showed significant differences in reading speed, with $p < 0.05$  (see Table 1; significant values are marked in boldface). A higher Z-Score indicates a higher reading speed, and so by comparing the values of A to B, we can see that only three of the four significant pairs support the hypothesis, that the theoretically harder passages would have a lower reading speed across their three target sentences. (Lexical 3 shows a significant difference in the opposite direction from what our hypothesis would suggest.)
 	
 	\section{Discussion}
 	
@@ -208,36 +210,6 @@
 		\newblock 2013.
 		\newblock {``The U.S. Illiteracy Rate Hasn't Changed in 10 Years.''}
 		\newblock Huffington Post, Web.
-		
-		\bibitem[\protect\citename{Aho and Ullman}1972]{Aho:72}
-		Alfred~V. Aho and Jeffrey~D. Ullman.
-		\newblock 1972.
-		\newblock {\em The Theory of Parsing, Translation and Compiling}, volume~1.
-		\newblock Prentice-{Hall}, Englewood Cliffs, NJ.
-		
-		\bibitem[\protect\citename{{American Psychological Association}}1983]{APA:83}
-		{American Psychological Association}.
-		\newblock 1983.
-		\newblock {\em Publications Manual}.
-		\newblock American Psychological Association, Washington, DC.
-		
-		\bibitem[\protect\citename{{Association for Computing Machinery}}1983]{ACM:83}
-		{Association for Computing Machinery}.
-		\newblock 1983.
-		\newblock {\em Computing Reviews}, 24(11):503--512.
-		
-		\bibitem[\protect\citename{Chandra \bgroup et al.\egroup }1981]{Chandra:81}
-		Ashok~K. Chandra, Dexter~C. Kozen, and Larry~J. Stockmeyer.
-		\newblock 1981.
-		\newblock Alternation.
-		\newblock {\em Journal of the Association for Computing Machinery},
-		28(1):114--133.
-		
-		\bibitem[\protect\citename{Gusfield}1997]{Gusfield:97}
-		Dan Gusfield.
-		\newblock 1997.
-		\newblock {\em Algorithms on Strings, Trees and Sequences}.
-		\newblock Cambridge University Press, Cambridge, UK.
 		
 	\end{thebibliography}
 	
