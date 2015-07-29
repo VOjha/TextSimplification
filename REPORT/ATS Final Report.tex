@@ -52,6 +52,8 @@
 	
 	The research of interest to this paper has been conducted in the field of eye-tracking experiments to gauge text difficulty. Rather than create models to automatically simplify texts, this research area focuses on using human readers to identify patterns in the way they read, and use this data to estimate what characteristics of a text are easy or difficult. These patterns take on three forms in particular, based on how our eyes move around naturally when reading.
 	
+	%%% The numbers here refer to Prof Medero's thesis' references
+	
 	\begin{itemize}[noitemsep]
 		\item[1.] \textit{Fixations} refer to the short durations where the eye is fixed on a particular place or word. People usually fixate on few characters, meaning a word may require more than one fixation to be understood. [66]
 		\item[2.] \textit{Regressions} occur when readers return to an earlier point in the text in order to reread it, typically due to either having missed something or requiring a reread for clarification. [17]
@@ -163,7 +165,7 @@
 				\bottomrule
 			\end{tabular}
 		\end{center}
-		\caption{Z-Scores across passages.}
+		\caption{Z-Scores across passages; significant values in bold.}
 	\end{table*}
 	
 	\section{Data Analysis}
@@ -174,7 +176,7 @@
 	
 	\subsection{Processing}
 	
-	After testing was completed, this data was further analyzed by a separate program. For each text, the program first gathers all instances of words read by the user; that is, words whose indices had been recorded during the operational phase. Since these values had previously been associated with a characters per second (CPS) value, denoted $x$, the program then uses this data to calculate the average CPS for that particular user across all 12 texts. A second average value was calculated, this time an average ``speed'' for each of the texts, which we denote $\mu_i$, where $i$ represents the text (and ranges from 1 to $n=12$). Finally, the same word can appear on multiple readings, and so have multiple CPS values that correspond to it. An average of all of these values is calculated, denoted $\bar{x}_{i,w}$, representing the average CPS for word $w$ occurring in text $i$.
+	After testing was completed, this data was further analyzed by a separate program. Note that the first five words were discarded in analysis. For each text, the program first gathers all instances of words read by the user; that is, words whose indices had been recorded during the operational phase. Since these values had previously been associated with a characters per second (CPS) value, denoted $x$, the program then uses this data to calculate the average CPS for that particular user across all 12 texts. A second average value was calculated, this time an average ``speed'' for each of the texts, which we denote $\mu_i$, where $i$ represents the text (and ranges from 1 to $n=12$). Finally, the same word can appear on multiple readings, and so have multiple CPS values that correspond to it. An average of all of these values is calculated, denoted $\bar{x}_{i,w}$, representing the average CPS for word $w$ occurring in text $i$.
 	
 	Each individual word was then scored using the Z-Score, which we denote $S_w$. This calculation used the word's average speed, $\bar{x}_{i,w}$, the average speed of the particular text, $\mu_i$, and the standard deviation of the CPS values fo that text, $\sigma_i$. For instances where a word was truncated, a specific fraction had to be present for the word to be considered ``in-frame." A Z-Score is a measurement of a value's proximity to the mean of the distribution: a Z-Score of 0 implies the value is the same as the mean. This calculation was given by:
 	
@@ -187,21 +189,25 @@
 	
 	\section{Results}
 	
-	By comparing average Z-Scores of partner texts, as described above, we see that only four text pairs showed significant differences in reading speed, with $p < 0.05$  (see Table 1; significant values are marked in boldface). A higher Z-Score indicates a higher reading speed, and so by comparing the values of A to B, we can see that only three of the four significant pairs support the hypothesis, that the theoretically harder passages would have a lower reading speed across their three target sentences. (Lexical 3 shows a significant difference in the opposite direction from what our hypothesis would suggest.)
+	By comparing average Z-Scores of partner texts, as described above, we see that only four text pairs showed significant differences in reading speed when run through a T-test for independent samples, with $p < 0.05$  (see Table 1). A higher Z-Score indicates a higher reading speed, and so by comparing the values of A to B, we can see that only three of the four significant pairs support the hypothesis, that the theoretically harder passages would have a lower reading speed across their three target sentences. (Lexical 3 shows a significant difference in the opposite direction from what our hypothesis would suggest.)
 	
 	\section{Discussion}
 	
 	\subsection{Summary}
 	
-	x
+	A number of aspects of this experiment were a success. In particular, the data shows that this iPad app is capable of detecting users' reactions to the text they are reading, even relatively small ones. Thus, if there is a signal to be captured, we believe this mechanism can capture it. Further, we found anecdotal support for the hypothesis that the A texts were harder than the B texts, based on comments from participants during the study. There was also some quantitative support for this theory: as discussed in Results, some pairs of texts showed a statistically significant difference in the reaction they produced. 
+	
+	However, these results were not as numerous or as significant as we had hoped. We believe there are a number of reasons for this. A primary reason could be the randomness in users' behavior. It is possible that we did not stress the importance of accounting for their every reaction to the participants of the study, so some of them were confused by the ``difficult'' words, but did not think it important to pause and let the iPad record that reaction. This led to a random distribution of reactions, which we think explains the lack of statistically significant differences. In order to combat this, we believe a clearer approach needs to be implemented: clarify the goals of the project to the participants, but do not give away enough to affect the results.
+	
+	It is also possible that the choice of word pairs were not appropriate to the reading level of our participants. While the original eye-tracking results we incorporated also originated with college students, not all of the sentence pairs represented a large gap in difficulty levels. Thus it is possible that an adjustment of the texts, or recruiting participants from a different population, could produce more statistically significant results.
 	
 	\subsection{Future Directions}
 	
-	x
+	As the above discussion suggests, we believe our next step should be to recruit different participants and carry out a different study. 
 	
-	\section*{Acknowledgments}
-	
-	x
+%	\section*{Acknowledgments}
+%	
+%	x
 	
 	\begin{thebibliography}{}
 		
